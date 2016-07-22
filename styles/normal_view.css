@@ -1,0 +1,87 @@
+/*common styles*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/* HEADER STYLES */
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    width: 110%;
+    top: 0px;
+    background-color: #0074BD;
+    padding: 30px 0px;
+    box-shadow: -10px 2px 10px black;
+}
+
+    header .logo .logo-img {
+        margin-left: 20%;
+    }
+
+/* MAIN CONTENT STYLES */
+main {
+    margin-top: 85px;
+}
+
+/* slider */
+    main .slider {
+        height: 650px;
+        position: relative;
+    }
+        main .slider .moto {
+            position: absolute;
+            width: 100%;
+            background-color: black;
+            text-align: center;
+            height: 650px;
+            opacity: 0.5;
+        }
+            .moto p {
+                color: white;
+                font-size: 40pt;
+                font-weight: 100;
+                margin-top: 250px;
+            }
+
+        .slider .image-left {
+            width: 50%;
+            height: 100%;
+            float: left;
+            background: url('/images/IMG_7501_FIX.jpg') no-repeat;
+            background-size: 100% 650px;
+            box-shadow: 0px -10px 10px -10px inset;
+        }
+        .slider .image-right {
+            width: 50%;
+            height: 100%;
+            float: right;
+            background: url('/images/with-children.jpg') no-repeat;
+            background-size: 100% 1200px;
+            background-position: 0px -350px;
+            box-shadow: 0px -10px 10px -10px inset;
+        }
+
+/* top info */
+    .top-info {
+        height: 700px;
+    }
+        .top-info .img-info{
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+            .rownd-img {
+                margin: 0 auto;
+                margin-top: 20px;
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background: url('/images/IMG_7449_FIX.jpg') no-repeat;
+                background-size: 230px;
+                background-position: 0px -80px;
+                border: 2px solid black;
+            }
+
