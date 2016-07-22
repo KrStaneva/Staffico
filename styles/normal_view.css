@@ -4,6 +4,14 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
+    p.grey{
+        color: #636363;
+        margin: 0px;
+    }
+    p.blue{
+        color: #0173ba;
+        margin: 0px;
+    }
 
 /* HEADER STYLES */
 header {
@@ -72,10 +80,18 @@ main {
             width: 50%;
             height: 100%;
             float: left;
+            text-align: left;
+            font-size: 40pt;
         }
+        .top-info .img-info .grey,
+        .top-info .img-info .blue {
+            margin-left: 30%;
+        }
+        .top-info .img-info .grey{margin-top: 20px;}
             .rownd-img {
                 margin: 0 auto;
-                margin-top: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
                 border-radius: 50%;
                 width: 200px;
                 height: 200px;
@@ -84,4 +100,34 @@ main {
                 background-position: 0px -80px;
                 border: 2px solid black;
             }
+        .top-info .job-positions {
+            float: right;
+            width: 50%;
+            height: 100%;
+            background: url('/images/job_pc.jpg') no-repeat;
+            background-size: 100% 100%;
+            background-color: red;
+        }
+
+        .top-info .about-me .grey {
+            font-size: 16pt;
+            width: 48%;
+            text-align: right;
+            float: left;
+            margin: 10px 0px;
+            padding-right: 15px;
+            border-right: 2px solid black;
+        }
+        .top-info .about-me .blue {
+            font-size: 16pt;
+            width: 49%;
+            padding-left: 10px;
+            text-align: left;
+            float: right;    
+            margin: 10px 0px;    
+        }
+        img.signature{
+            float: right;
+            margin-right: 200px;
+        }
 
