@@ -58,7 +58,7 @@ main {
             width: 50%;
             height: 100%;
             float: left;
-            background: url('/images/IMG_7501_FIX.jpg') no-repeat;
+            background: url('../images/IMG_7501_FIX.jpg') no-repeat;
             background-size: 100% 650px;
             box-shadow: 0px -10px 10px -10px inset;
         }
@@ -66,7 +66,7 @@ main {
             width: 50%;
             height: 100%;
             float: right;
-            background: url('/images/with-children.jpg') no-repeat;
+            background: url(../images/with-children.jpg) no-repeat;
             background-size: 100% 1200px;
             background-position: 0px -350px;
             box-shadow: 0px -10px 10px -10px inset;
@@ -95,7 +95,7 @@ main {
                 border-radius: 50%;
                 width: 200px;
                 height: 200px;
-                background: url('/images/IMG_7449_FIX.jpg') no-repeat;
+                background: url('../images/IMG_7449_FIX.jpg') no-repeat;
                 background-size: 230px;
                 background-position: 0px -80px;
                 border: 2px solid black;
@@ -104,7 +104,7 @@ main {
             float: right;
             width: 50%;
             height: 100%;
-            background: url('/images/job_pc.jpg') no-repeat;
+            background: url('../images/job_pc.jpg') no-repeat;
             background-size: 100% 100%;
             background-color: red;
         }
