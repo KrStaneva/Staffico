@@ -177,7 +177,8 @@ main {
     .my-interview p.blue {
         text-align: right;
         font-size: 40pt;
-        margin-right: 250px;
+        width: 60%;
+        margin: 0 auto;
     }
 
     .my-interview .full-interview {
@@ -232,7 +233,11 @@ main {
         }
 
 /* BULPRS Advantages */
-.bp-advant{width: 60%; margin: 0 auto; padding-top: 50px;}
+.bp-advant{
+    width: 60%; 
+    margin: 0 auto; 
+    padding-top: 50px;
+}
 
     .bp-advant p.grey,
     .bp-advant p.blue {
@@ -240,42 +245,56 @@ main {
         font-size: 40pt;
     }
 
-.row {margin-bottom: 50px;}
-.row .option {text-align: center; float: left; width: 33.3333333%;}
+    .bp-advant .row {
+        margin: 25px 0px; 
+        height: 150px;
+    }
+        .row .option {
+            text-align: center; 
+            float: left; 
+            width: 33.3333333%;
+        }
+            .row .option h2 {
+                color: #636363;
+                font-size: 13pt;
+                font-family: 'Lato', sans-serif;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
 
-.option div {
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-}
-.option .prifile {
-    background: url("../images/joyn.png") 0px 0px;
-}
-.option .competitive {
-    background: url("../images/joyn.png") -90px -3px;
-}
-.option .individual {
-    background: url("../images/joyn.png") -168px 0px;
-}
-.option .technology {
-    background: url("../images/joyn.png") 0px -87px;
-}
-.option .certification {
-    background: url("../images/joyn.png") -89px -87px;
-}
-.option .travel {
-    background: url("../images/joyn.png") -157px -92px;
-    width: 80px;
-}
-.option .flexible {
-    background: url("../images/joyn.png") 0px -190px;
-    width: 80px;
-}
-.option .direct {
-    background: url("../images/joyn.png") -85px -175px;
-    width: 80px;
-}
-.option .mobility {
-    background: url("../images/joyn.png") -165px -180px;
-    width: 80px;
-}
+            .row .option div {
+                width: 70px;
+                height: 70px;
+                display: inline-block;
+            }
+                .row .option .prifile {
+                    background: url("../images/joyn.png") 0px 0px;
+                }
+                .row .option .competitive {
+                    background: url("../images/joyn.png") -90px -3px;
+                }
+                .row .option .individual {
+                    background: url("../images/joyn.png") -168px 0px;
+                }
+                .row .option .technology {
+                    background: url("../images/joyn.png") 0px -87px;
+                }
+                .row .option .certification {
+                    background: url("../images/joyn.png") -89px -87px;
+                }
+                .row .option .travel {
+                    background: yellow url("../images/joyn.png") -162px -92px;
+                    width: 80px;
+                }
+                .row .option .flexible {
+                    background: url("../images/joyn.png") 0px -190px;
+                    width: 80px;
+                }
+                .row .option .direct {
+                    background: url("../images/joyn.png") -85px -175px;
+                    width: 80px;
+                }
+                .row .option .mobility {
+                    background: url("../images/joyn.png") -165px -180px;
+                    width: 80px;
+                }
