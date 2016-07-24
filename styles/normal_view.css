@@ -4,11 +4,12 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
-    p.grey{
+    .grey,
+    .material-icons{
         color: #636363;
         margin: 0px;
     }
-    p.blue{
+    .blue{
         color: #0173ba;
         margin: 0px;
     }
@@ -22,7 +23,7 @@ header {
     top: 0px;
     background-color: #0074BD;
     padding: 30px 0px;
-    box-shadow: -10px 2px 10px black;
+    box-shadow: -10px 2px 10px #000000;
 }
 
     header .logo .logo-img {
@@ -34,7 +35,7 @@ main {
     margin-top: 85px;
 }
 
-/* slider */
+/* SLIDER */
     main .slider {
         height: 650px;
         position: relative;
@@ -42,13 +43,12 @@ main {
         main .slider .moto {
             position: absolute;
             width: 100%;
-            background-color: black;
+            background-color: rgba(0,0,0,0.5);
             text-align: center;
             height: 650px;
-            opacity: 0.5;
         }
             .moto p {
-                color: white;
+                color: #ffffff;
                 font-size: 40pt;
                 font-weight: 100;
                 margin-top: 250px;
@@ -72,62 +72,210 @@ main {
             box-shadow: 0px -10px 10px -10px inset;
         }
 
-/* top info */
+/* TOP INFO */
     .top-info {
         height: 700px;
     }
+    /* left part */
         .top-info .img-info{
             width: 50%;
             height: 100%;
             float: left;
-            text-align: left;
-            font-size: 40pt;
         }
-        .top-info .img-info .grey,
-        .top-info .img-info .blue {
-            margin-left: 30%;
-        }
-        .top-info .img-info .grey{margin-top: 20px;}
-            .rownd-img {
-                margin: 0 auto;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                border-radius: 50%;
-                width: 200px;
-                height: 200px;
-                background: url('../images/IMG_7449_FIX.jpg') no-repeat;
-                background-size: 230px;
-                background-position: 0px -80px;
-                border: 2px solid black;
+            .top-info .img-info .info-container{
+                width: 80%;
+                height: 680px;
+                float: right;
+                padding-top: 20px;
             }
-        .top-info .job-positions {
-            float: right;
-            width: 50%;
+            .top-info .img-info .info-container p.grey,
+            .top-info .img-info .info-container p.blue {
+                text-align: left;
+                font-size: 40pt;
+                margin-left: 150px;
+            }
+            .rownd-img {
+                margin: 20 auto;
+                border-radius: 50%;
+                width: 300px;
+                height: 300px;
+                background: url('../images/IMG_7449_FIX.jpg') no-repeat;
+                background-size: 300px;
+                background-position: 0px -100px;
+                border: 2px solid #000000;
+                box-shadow: 2px 2px 5px #000000;
+            }
+            .img-info .info-container .about-me {
+                font-size: 11pt;
+                text-align: center;
+                margin-left: 140px;
+            }
+                .img-info .info-container .about-me tbody{
+                    float: right;
+                    text-align: left;
+                }
+                .img-info .info-container .about-me thead{
+                    float: left;
+                    text-align: right;
+                    margin-right: 10px;
+                    padding-right: 10px;
+                    border-right: 2px solid #636363;
+                }
+
+
+            .img-info .info-container img.signature{
+                float: right;
+                margin-right: 50px;
+                width: 40%;
+                height: auto;
+            }
+
+    /* right part */
+    .top-info .job-positions {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background: url('../images/job_pc.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: -120px 0px;
+        color: #ffffff;
+    }
+        .top-info .job-positions .position-desctibtion{
+            width: 100%;
             height: 100%;
-            background: url('../images/job_pc.jpg') no-repeat;
-            background-size: 100% 100%;
-            background-color: red;
+            background-color: rgba(0,0,0,0.5);
         }
+            .position-desctibtion .pos-title {
+                font-size: 30pt;
+                text-align: right;
+                padding: 20px 250px 0px 0px;
+            }
+            .position-desctibtion li {
+                padding-left: 20px;
+                margin: 15px 0px;
+                width: 60%;
+                font-size: 12pt;
+            }
+            .position-desctibtion .pos-button{
+                background-color: #0173ba;
+                margin-left: 50px;
+                padding: 10px;
+                text-align: center;
+                font-weight: bold;
+                width: 300px;
+            }
+                .position-desctibtion .pos-button .pos-link {
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+/* MY INTERVIEW */
+.my-interview {
+    padding-top: 50px;
+    background-color: #F8F8F8;
+}
+    .my-interview p.grey,
+    .my-interview p.blue {
+        text-align: right;
+        font-size: 40pt;
+        margin-right: 250px;
+    }
 
-        .top-info .about-me .grey {
-            font-size: 16pt;
-            width: 48%;
-            text-align: right;
-            float: left;
-            margin: 10px 0px;
-            padding-right: 15px;
-            border-right: 2px solid black;
+    .my-interview .full-interview {
+        width: 60%;
+        margin: 20px auto;
+        border-collapse:collapse 
+    }
+        .full-interview .int-more {
+            display: none;
         }
-        .top-info .about-me .blue {
-            font-size: 16pt;
-            width: 49%;
-            padding-left: 10px;
+        .full-interview td{
+            width: 50%;
+            padding: 20px;
+            vertical-align: top;
+        }
+        .full-interview .blue {
+            border-left: 2px solid #636363;
             text-align: left;
-            float: right;    
-            margin: 10px 0px;    
         }
-        img.signature{
-            float: right;
-            margin-right: 200px;
+        .full-interview .grey{
+            text-align: right;
+            padding-right: 50px;
         }
 
+    .my-interview .int-buttons {
+        margin: 20px auto;
+        text-align: center;
+        width: 60%;
+    }
+
+    .my-interview .int-buttons .read-more {
+        margin: 20px auto;
+        cursor: pointer;
+        width: 300px;
+        padding: 10px;
+        border-bottom: 2px solid #636363;
+        position: relative;
+    }
+        .my-interview .int-buttons .read-more .material-icons{
+            position: absolute;
+            bottom: 5px;
+        }
+    .my-interview .int-buttons .apply-job {
+        width: 410px;
+        background-color: #0173ba;
+        padding: 10px;
+        margin: 10px auto;
+    }
+        .my-interview .int-buttons .apply-job .apply-link {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+/* BULPRS Advantages */
+.bp-advant{width: 60%; margin: 0 auto; padding-top: 50px;}
+
+    .bp-advant p.grey,
+    .bp-advant p.blue {
+        text-align: left;
+        font-size: 40pt;
+    }
+
+.row {margin-bottom: 50px;}
+.row .option {text-align: center; float: left; width: 33.3333333%;}
+
+.option div {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+.option .prifile {
+    background: url("../images/joyn.png") 0px 0px;
+}
+.option .competitive {
+    background: url("../images/joyn.png") -90px -3px;
+}
+.option .individual {
+    background: url("../images/joyn.png") -168px 0px;
+}
+.option .technology {
+    background: url("../images/joyn.png") 0px -87px;
+}
+.option .certification {
+    background: url("../images/joyn.png") -89px -87px;
+}
+.option .travel {
+    background: url("../images/joyn.png") -157px -92px;
+    width: 80px;
+}
+.option .flexible {
+    background: url("../images/joyn.png") 0px -190px;
+    width: 80px;
+}
+.option .direct {
+    background: url("../images/joyn.png") -85px -175px;
+    width: 80px;
+}
+.option .mobility {
+    background: url("../images/joyn.png") -165px -180px;
+    width: 80px;
+}
