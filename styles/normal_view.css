@@ -4,6 +4,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     min-width: 1120px;
+    line-height: 1;
 }
     .grey,
     .material-icons{
@@ -44,7 +45,7 @@ main {
         main .slider .moto {
             position: absolute;
             width: 100%;
-            background-color: rgba(0,0,0,0.3);
+            background-color: rgba(99,99,99,0.5);
             text-align: center;
             height: 600px;
         }
@@ -149,7 +150,7 @@ main {
         .top-info .job-positions .position-desctibtion{
             width: 100%;
             height: 100%;
-            background-color: rgba(0,0,0,0.5);
+            background-color: rgba(99,99,99,0.7);
         }
             .position-desctibtion ul {
                 width: 500px;
@@ -319,8 +320,8 @@ main {
     width: 100%;
     height: 800px;
     background: url("../images/IMG_20160708_123802.jpeg") no-repeat;
-    background-size: auto 200%;
-    background-position: -130px -160px;
+    background-size: 100% 150%;
+    background-position: 0px -100px;
     position: relative;
     box-shadow: inset 0px 5px 15px -5px #000000;
 }
