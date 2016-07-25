@@ -164,6 +164,7 @@ main {
                     font-size: 30pt;
                     text-align: right;
                     margin-bottom: 30px;
+                    padding-top: 30px;
                 }
             .position-desctibtion .pos-button{
                 background-color: #0173ba;
@@ -195,7 +196,7 @@ main {
     .my-interview .full-interview {
         width: 1120px;
         margin: 20px auto;
-        border-collapse:collapse 
+        border-collapse:collapse;
     }
         .full-interview .int-more {
             display: none;
@@ -280,6 +281,7 @@ main {
                 height: 70px;
                 display: inline-block;
             }
+                /* icons */
                 .row .option .prifile {
                     background: url("../images/joyn.png") 0px 0px;
                 }
@@ -320,7 +322,7 @@ main {
     background-size: auto 200%;
     background-position: -130px -160px;
     position: relative;
-    box-shadow: inset 0px 10px 5px -5px #000000;
+    box-shadow: inset 0px 5px 15px -5px #000000;
 }
     .mid-banner .banner-moto {
         position: absolute;
@@ -407,8 +409,208 @@ main {
 /* FOOTER */
 footer {
     box-shadow: inset 0px 10px 10px -10px #000000;
-    bottom: 0px;
-    height: 400px;
     width: 100%;
-    background-color: grey;
+    background: url("../images/IMG_7501_FIX.jpg") no-repeat;
+    background-size: auto 100%;
 }
+
+/* grey content */
+.grey-part {
+    width: 100%;
+    height: 700px;
+    background-color: rgba(99,99,99,0.7);
+    padding-top: 30px;
+    color: #ffffff;
+}
+    .grey-part .grey-content {
+        width: 1120px;
+        margin: 0 auto;
+        border-top: 1px solid #ffffff;
+        text-align: center;
+    }
+        .grey-part .grey-content .title{
+            margin-top: 20px;
+            font-size: 16pt;
+            line-height: 10px;
+            font-weight: 100;
+        }
+        .grey-part .grey-content .title h1 {
+            font-weight: 100;
+        }
+    
+    /* table of facts */
+    .grey-content .facts{
+        display: block;
+    }
+        .grey-content .facts .row{
+            border-bottom: 1px solid #ffffff;
+        }
+            .grey-content .facts .row:after {
+                display: block;
+                content: "";
+                clear: both;
+            }
+
+            .grey-content .facts .row .left {
+                border-right: 1px solid #ffffff;
+                float: left;
+                width: 49%;
+                padding: 20px 0px;
+            }
+            .grey-content .facts .row .right {
+                float: left;
+                width: 49%;
+                padding: 20px 0px 20px 20px;
+            }
+
+            .grey-content .facts .row .left .text,
+            .grey-content .facts .row .right .text{
+                font-size: 20px;
+                width: 85%;
+                display: inline-block;
+                height: 70px;
+                text-align: left;
+            }
+            .grey-content .facts .row .left div:first-child,
+            .grey-content .facts .row .right div:first-child {
+                float: left;
+                width: 70px;
+                height: 70px;
+                display: inline-block;
+                margin-right: 10px;
+            }
+                /* icons */
+                .grey-content .icon-company {
+                    background: url("../images/company.png") no-repeat;
+                }
+                .grey-content .icon-numbers {
+                    background: url("../images/numbers.png") no-repeat;
+                }
+                .grey-content .icon-microsoft {
+                    background: url("../images/microsoft.png") no-repeat;
+                }
+                .grey-content .icon-outsourcing {
+                    background: url("../images/outsourcing.png") no-repeat;
+                }
+                .grey-content .icon-devPartner {
+                    background: url("../images/devPartner.png") no-repeat;
+                }
+                .grey-content .icon-engineers {
+                    background: url("../images/engineers.png") no-repeat;
+                }
+
+    .grey-content .expertise {
+        margin-top: 20px;
+    }
+        .grey-content .expertise h2 {
+            font-size: 20pt;
+            font-weight: 100;
+        }
+        .grey-content .expertise ul {
+            list-style: none;
+            padding: 0px 20px 30px 20px;
+        }
+        .grey-content .expertise li {
+            display: inline-block;
+            margin-right: 65px;
+            font-size: 20px;
+        }
+            .grey-content .expertise li:last-child {
+                margin-right: 0px;
+            }
+            .grey-content .expertise li i {
+                padding-right: 10px;
+            }
+            .grey-content .expertise li .java {
+                background: url("../images/java.png") no-repeat;
+                display: inline-block;
+                padding-right: 5px;
+                width: 30px;
+                height: 40px;
+            }
+            .grey-content .expertise li .embedded {
+                background: url("../images/embed.png") no-repeat;
+                display: inline-block;
+                padding-right: 5px;
+                width: 30px;
+                height: 20px;
+            }
+            .grey-content .expertise li .ui-ux {
+                background: url("../images/ui-ux.png") no-repeat;
+                width: 45px;
+                height: 20px;
+                display: inline-block;
+                padding-right: 5px;
+            }
+    .grey-content .grey-button {
+        margin-top: 50px;
+    }
+        .grey-content .grey-button a{
+            padding: 20px 30px;
+            border: 1px solid #ffffff;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+/* blue part */
+footer .blue-part {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(1,115,186,0.7);
+    padding: 30px 0px 50px 0px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    line-height: 25px;
+}
+    footer .blue-part .logo-footer {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .blue-part .blue-content {
+        margin: 0 auto;
+        width: 1120px;
+        border-top: 1px solid #ffffff;
+        margin-top: 20px;
+        display: inline-block;
+        padding-top: 20xp;
+    }
+        .blue-part .blue-content .about-us {
+            width: 750px;
+            float: left;
+            text-align: justify;
+        }
+        .blue-part .blue-content .contacts {
+            text-align: left;
+            float: right;
+            width: 250px;
+        }
+            .blue-part .blue-content .contacts ul{
+                list-style: none;
+                text-align: left;
+                padding: 0px;
+            }
+
+    footer .blue-part .follow {
+        margin: 0 auto;
+        width: 1120px;
+        text-align: left;
+    }
+    footer .blue-part .follow h3 {
+        margin: 0px;
+    }
+    footer .blue-part .follow ul {
+        list-style: none;
+        text-align: left;
+        padding: 0px;
+    }
+        footer .blue-part .follow ul li {
+            display: inline-block;
+            list-style-type: none;
+            margin-right: 10px;
+        }
+        footer .blue-part .follow ul li a {
+            color: #ffffff;
+            font-size: 14pt;
+        }
