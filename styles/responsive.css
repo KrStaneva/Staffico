@@ -1,5 +1,9 @@
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
     body,
+    main{
+        overflow-y: scroll;
+    }
+    body,
     header,
     header .logo,
     main,
@@ -21,7 +25,7 @@
     footer .blue-part .follow{
         width: 100%;
         min-width: 100%;
-        max-width: 100%;
+        max-width: 100%;    
     }
     
     .slider .image-right {
