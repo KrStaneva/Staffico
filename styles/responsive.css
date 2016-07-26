@@ -1,5 +1,297 @@
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-    body {
-        background-color: green;
+    body,
+    header,
+    header .logo,
+    main,
+    .top-info,
+    .top-info .job-positions,
+    .top-info .img-info,
+    .my-interview,
+    .my-interview p.grey,
+    .my-interview p.blue,
+    .my-interview .full-interview,
+    .my-interview .int-buttons,
+    .position-desctibtion ul,
+    .bp-advant,
+    .refer-friend,
+    .grey-part .grey-content,
+    .blue-part .blue-content,
+    .blue-part .blue-content .about-us,
+    footer,
+    footer .blue-part .follow{
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
     }
+    
+    .slider .image-right {
+        display: none;
+    }
+
+    header .logo {
+        width: 100% !important;
+        text-align: center;
+    }
+    header .logo .logo-img{
+        margin: 0px;
+    }
+    
+/* SLIDER */    
+    .slider,
+    .slider .moto,
+    .slider .image-left {
+        width: 100%;
+        height: 400px !important;
+    }
+        .slider .moto p{
+            font-size: 20pt;
+            margin-top: 180px;
+        }
+    
+/* TOP INFO*/
+    .top-info{
+        min-height: 600px;
+        height: 600px;
+    }
+    .top-info .info-container {
+        width: 100% !important;
+    }
+        .top-info .info-container p {
+            margin: 0px !important;
+            font-size: 20pt !important;
+        }
+            .top-info .info-container p.grey {
+                float: left;
+                padding-right: 10px;
+                margin-left: 50px !important;
+            }
+
+        .top-info .info-container .rownd-img {
+            width: 250px;
+            height: 250px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .img-info .info-container .about-me {
+            margin: 0px auto;
+            font-size: 8pt;
+        }
+            .img-info .info-container .about-me thead {
+                padding-right: 5px !important;
+                margin-right: 5px !important;
+            }
+    
+        .img-info .info-container img.signature {
+            margin-right: 20px;
+        }     
+    
+    /* top info right part*/
+    .top-info .job-positions {
+        background-position: -330px;
+    }
+
+        .top-info .job-positions .pos-title {
+            font-size: 20pt !important;
+            width: 90%;
+        }
+        .top-info .job-positions ul {
+            min-width: 90%;
+            width: 90%;
+
+        }
+        .top-info .job-positions li {
+            width: 90%;
+            font-size: 11pt;
+            margin: 10px 0px !important;
+            padding-left: 5px;
+        }
+        .position-desctibtion .pos-button {
+            margin: 0 auto !important;
+            font-size: 12pt;
+        }
+    
+/* MY INTERVIEW */
+    .my-interview {
+        float: left;
+        padding-top: 20px;
+    }
+        .my-interview p{
+            font-size: 20pt !important;
+            text-align: center !important;
+            width: 45% !important;
+            min-width: 45% !important;
+            float: left;
+            margin-bottom: 20px !important;
+        }
+            .my-interview p.grey {
+                text-align: right !important;
+            }
+            .my-interview p.blue {
+                padding-left: 10px;
+                text-align: left !important;
+            }
+    
+        .full-interview {
+            font-size: 10pt;
+            line-height: 18px;
+        }
+            .full-interview td {
+                padding: 10px 10px !important;
+            }   
+    .my-interview .int-buttons .apply-job {
+        width: 90%;
+    }
+    
+/* ADVANTAGES */
+    .bp-advant {text-align: center; padding-bottom: 40px;}
+        .bp-advant p {
+            margin: 20px 0px 50px 0px !important;
+            font-size: 19pt !important;
+            text-align: center !important;
+            display: inline-block;
+        }
+        .bp-advant .row {
+            padding: 0px 20px; 
+            margin: 0px !important;
+            height: 100px !important;
+        }
+            .bp-advant .row .option h2 {
+                font-size: 7pt;
+            }
+
+            .bp-advant .row .option div{
+                width: 40px;
+                height: 40px;
+                background-size: 300px;
+                background-position: 0px 0px;
+            }
+
+                .row .option .competitive {
+                    background-position: -55px -3px !important;
+                }
+                .row .option .individual {
+                    background-position: -100px 0px !important;
+                }
+                .row .option .technology  {
+                    background-position: 0px -54px !important;
+                }
+                .row .option .certification {
+                    background-position: -55px -53px !important;
+                }
+                .row .option .travel   {
+                    background-position: -95px -55px !important;
+                    width: 50px !important;
+                }
+                .row .option .flexible  {
+                    background-position: -5px -110px !important;
+                    height: 45px !important;
+                }
+                .row .option .direct  {
+                    background-position: -55px -103px !important;
+                }
+                .row .option .mobility {
+                    background-position: -100px -108px !important;
+                    width: 50px !important;
+                }
+    
+/* MID BANNER */                
+    .mid-banner {
+        height: 300px;
+        background-position: 0px 0px;
+        background-size: 100% 100%;
+    }
+        .mid-banner .banner-moto p {
+            font-size: 20pt;
+            margin-top: 120px;
+        }
+/* REFER A FRIEND */
+    .refer-friend {
+        text-align: center; 
+        padding: 20px 0px 20px 0px;  
+        height: 950px;
+    }
+        .refer-friend p {
+            margin: 20px 0px 20px 0px !important;
+            font-size: 19pt !important;
+            text-align: center !important;
+            display: inline-block;
+        }
+        .refer-friend p.grey {padding-right: 5px;}
+
+        .refer-friend .get-bonus .title-bonus {
+            margin: 0px !important;
+            font-size: 16pt;
+        }
+            .get-bonus .bonus-options .sum {
+                font-size: 36pt;
+            }
+            .get-bonus .bonus-options .option-info {
+                font-size: 12pt;
+            }
+        .refer-friend .bonus-info {
+            font-size: 12pt;
+            line-height: 20px;
+            padding: 0px 15px;
+        }
+        .refer-friend .bonus-info .important {
+            font-size: 14pt !important;
+            margin: 10px 0px !important;
+        }
+    
+/* FOOTER */
+footer {
+    background: none;
+}
+    .grey-part {
+        height: 1470px;
+    }
+    .grey-part .grey-content .title h1 {
+        font-size: 20pt;
+        margin-bottom: 50px;
+    }
+
+    .grey-content .facts .row,
+    .grey-content .facts .row .left,
+    .grey-content .facts .row .right {
+        width: 100%;
+        border: none;
+        float: none;
+        padding: 0px;
+    }
+        .grey-content .facts .row .left div,
+        .grey-content .facts .row .right div {
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+        .grey-content .facts .row .left div.text,
+        .grey-content .facts .row .right div.text {
+            font-size: 10pt;
+            transform: translateX(0%);
+            margin: 20px 0px;
+            text-align: center;
+            height: auto;
+            width: 80%;
+        }
+        .grey-content .expertise li {
+            display: inherit;
+            margin: 15px 0px;
+        }
+    
+    .blue-part {
+        width: 100% !important;
+        min-width: 100% !important;
+        height: 1450px !important;
+    } 
+        .blue-part h3,
+        .blue-part p {
+            padding: 10px 50px;
+        }
+        .blue-part .blue-content .contacts {
+            width: 100%;
+        }
+            .blue-part .blue-content .contacts ul,
+            footer .blue-part .follow ul {
+                margin-left: 50px;
+            }    
 }
