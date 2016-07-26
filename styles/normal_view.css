@@ -25,7 +25,6 @@ header {
     top: 0px;
     background-color: #0074BD;
     padding: 30px 0px;
-    box-shadow: 0px 1px 10px 2px #000000;
 }
 
     header .logo .logo-img {
@@ -45,7 +44,7 @@ main {
         main .slider .moto {
             position: absolute;
             width: 100%;
-            background-color: rgba(99,99,99,0.5);
+            background-color: rgba(1,115,186,0.5);
             text-align: center;
             height: 600px;
         }
@@ -60,33 +59,30 @@ main {
             width: 50%;
             height: 100%;
             float: left;
-            background: url('../images/IMG_7501_FIX.jpg') no-repeat;
+            background: url('../images/2.jpg') no-repeat;
             background-size: cover;
-            box-shadow: 0px -10px 10px -10px inset;
         }
         .slider .image-right {         
             width: 50%;
             height: 100%;
             float: right;
-            background: url(../images/with-children.jpg) no-repeat;
-            background-size: auto 230%;
-            background-position: 0px -430px;
-            box-shadow: 0px -10px 10px -10px inset;
+            background: url(../images/1.jpg) no-repeat;
+            background-size: auto 130%;
+            background-position: -50px 0px;
         }
 
 /* TOP INFO */
     .top-info {
-        height: 700px;
+        height: 800px;
     }
     /* left part */
         .top-info .img-info{
             width: 50%;
             height: 100%;
             float: left;
-            box-shadow: inset 0px -10px 10px -10px #000000;
         }
             .top-info .img-info .info-container{
-                width: 700px;
+                width: 650px;
                 height: 680px;
                 float: right;
                 padding-top: 20px;
@@ -95,26 +91,28 @@ main {
             .top-info .img-info .info-container p.blue {
                 text-align: left;
                 font-size: 40pt;
-                margin-left: 150px;
+                margin-left: 200px;
             }
             .rownd-img {
-                margin: 0 auto;
-                margin-top: 20px;
-                margin-bottom: 20px;
+                margin: 20px 150px 20px 0px;
+                float: right;
                 border-radius: 50%;
                 width: 300px;
                 height: 300px;
-                background: url('../images/IMG_7449_FIX.jpg') no-repeat;
-                background-size: 300px;
-                background-position: 0px -100px;
-                border: 2px solid #000000;
-                box-shadow: 2px 2px 5px #000000;
+                background: url('../images/3.jpg') no-repeat;
+                background-size: 500px;
+                background-position: -70px -10px;
+                border: 2px solid #0173ba;
             }
             .img-info .info-container .about-me {
+                float: right;
                 font-size: 11pt;
-                text-align: center;
-                margin-left: 170px;
+                margin-right: 50px;
             }
+                .img-info .info-container .about-me td,
+                .img-info .info-container .about-me th{
+                    padding: 10px 0px;
+                }
                 .img-info .info-container .about-me tbody{
                     float: right;
                     text-align: left;
@@ -145,7 +143,6 @@ main {
         background-size: auto 100%;
         background-position: -30px 0px;
         color: #ffffff;
-        box-shadow: inset 0px -10px 10px -10px #000000;
     }
         .top-info .job-positions .position-desctibtion{
             width: 100%;
@@ -153,7 +150,7 @@ main {
             background-color: rgba(99,99,99,0.7);
         }
             .position-desctibtion ul {
-                width: 500px;
+                width: 450px;
                 margin-top: 0px;
             }
                 .position-desctibtion li {
@@ -178,13 +175,13 @@ main {
                 .position-desctibtion .pos-button .pos-link {
                     text-decoration: none;
                     color: #ffffff;
+                    line-height: 30px;
                 }
 
 /* MY INTERVIEW */
 .my-interview {
     padding-top: 50px;
     background-color: #F8F8F8;
-    box-shadow: inset 0px -10px 10px -10px #000000;
 }
     .my-interview p.grey,
     .my-interview p.blue {
@@ -206,6 +203,8 @@ main {
             width: 50%;
             padding: 20px;
             vertical-align: top;
+            line-height: 30px;
+            font-weight: bold;
         }
         .full-interview .blue {
             border-left: 2px solid #636363;
@@ -238,7 +237,7 @@ main {
         .my-interview .int-buttons .apply-job {
             width: 410px;
             background-color: #0173ba;
-            padding: 10px;
+            padding: 20px 30px;
             margin: 10px auto;
         }
             .my-interview .int-buttons .apply-job .apply-link {
@@ -314,7 +313,6 @@ main {
                     background: url("../images/joyn.png") -165px -180px;
                     width: 80px;
                 }
-/* LUDOSTTA POCHVAAAAAA */
 
 
 /* MID BANNER */
@@ -325,7 +323,6 @@ main {
     background-size: 100% 150%;
     background-position: 0px -100px;
     position: relative;
-    box-shadow: inset 0px 5px 15px -5px #000000;
 }
     .mid-banner .banner-moto {
         position: absolute;
@@ -334,7 +331,6 @@ main {
         top: 0px;
         background-color: rgba(1,115,186,0.5);
         text-align: center;
-        box-shadow: inset 0px -10px 10px -10px #000000;
     }
         .banner-moto p {
             color: #ffffff;
@@ -411,10 +407,10 @@ main {
 
 /* FOOTER */
 footer {
-    box-shadow: inset 0px 10px 10px -10px #000000;
     width: 100%;
-    background: url("../images/IMG_7501_FIX.jpg") no-repeat;
-    background-size: auto 100%;
+    background: url("../images/3.jpg") no-repeat;
+    background-size: 2500px;
+    background-position: -300px -200px;
 }
 
 /* grey content */
