@@ -1,8 +1,14 @@
 (function () {
-    var clickOnOff = 0;
+    var screenW = screen.width;
+    var screenH = screen.height;
+    
+
     window.onload = function () {
         $(".read-more").click(function () {
             $(".int-more").toggle("slow");
         });
-    };
+     
+        
+    };         
+    
 })();
