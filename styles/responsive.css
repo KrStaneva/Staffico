@@ -28,7 +28,24 @@
     header .logo .logo-img {
         margin-left: 50%;
         transform: translateX(-50%);
+    }
+
+    header .menu {
+        right: auto;
+        left: -1000px;
+        top: 70px;
+        background-color: rgba(1,115,186,0.7);
+        padding: 10px;
     }    
+    header .menu li {
+        margin: 0px;
+        padding: 20px 0px;
+        display: inherit;
+    }
+
+    header .menu-button{
+        display: block;
+    }
     
     
 /* TOP INFO*/

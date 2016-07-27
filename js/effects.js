@@ -1,6 +1,7 @@
 $(document).ready(function () {
     
     $("header .logo").width(screen.width);
+    $("header .menu-button").width(screen.width+10);
     
     /* start screen */
     $(".image-left").animate({"margin-top": 0 }, 2000);
@@ -29,4 +30,18 @@ $(document).ready(function () {
     });
 
     
+    $("li > a, footer > a").on('click', function (event) {
+        event.preventDefault();
+        var hash = this.hash;
+        
+        $('html, body').animate({scrollTop: $(hash).offset().top - 80}, 900, function () {
+            window.location.hash = hash;
+        });
+    });
+    
+    $(".menu-button").click(function () {
+        $(".menu").toggle(function() {
+            $(".menu").animate({"left": 0 }, 1000);
+        });
+    });    
 });
