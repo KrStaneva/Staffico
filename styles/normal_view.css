@@ -58,6 +58,7 @@ header .menu {
     header .menu-button {
         display: none;
         position: absolute;
+        z-index: 10;
         width: 150%;
         height: 15px;
         top: 72px;
@@ -82,6 +83,7 @@ main {
     }
         main .slider .moto {
             position: absolute;
+            z-index: 5;
             width: 100%;
             height: 30vw;
             background-color: rgba(1,115,186,0.5);
@@ -106,12 +108,13 @@ main {
             margin-top: -1500px;
         }
         .slider .image-right {
+            position: absolute;
+            z-index: 0;
             width: 50%;
-            height: 100%;
-            float: right;
+            height: 30vw;
+            right: -1500px;
             background: url(../images/1.jpg) no-repeat;
             background-size: auto 120%;
-            margin-right: -1500px;
         }
 
 /* TOP INFO */
@@ -136,13 +139,14 @@ main {
                 font-size: 40pt;
             }
             .rownd-img {
+                color: #ffffff;
                 margin: 20px auto;
                 border-radius: 50%;
                 width: 300px;
                 height: 300px;
-                background: url('../images/3.jpg') no-repeat;
-                background-size: 500px;
-                background-position: -70px -10px;
+                background: url('../images/4.jpg') no-repeat;
+                background-size: 120%;
+                background-position: center -70px;
                 border: 2px solid #0173ba;
                 border-radius: 50%;
                 -webkit-transition: -webkit-transform .8s ease-in-out;
@@ -155,7 +159,6 @@ main {
 
                 .rownd-img div {
                     display: none;
-                    color: #ffffff;
                     font-size: 18pt;
                     text-decoration: underline;
                     text-align: center;
@@ -165,6 +168,17 @@ main {
                     height: 100%;
                     margin-top: 0px;
                     border-radius: 50%;
+                    position: relative;
+                }
+                .rownd-img span{
+                    display: none;
+                    position: absolute;
+                    text-align: center;
+                    bottom: 120px;
+                    left: 0px;
+                    width: 100%;
+                    font-size: 10pt;
+                    line-height: normal;
                 }
 
 
@@ -326,12 +340,18 @@ main {
     padding-top: 50px;
 }
 
-    .bp-advant p.grey,
-    .bp-advant p.blue {
-        text-align: left;
-        font-size: 40pt;
+    .bp-advant .title{
+        text-align: center;
+        color: #636363;
+        margin-top: 20px;
+        font-size: 16pt;
+        line-height: 10px;
+        font-weight: 100;
     }
-    .bp-advant p.blue{margin-bottom: 50px;}
+        .bp-advant .title h1 {
+            font-weight: 100;
+            padding-bottom: 50px;
+        }
 
     .bp-advant .row {
         margin: 25px 0px; 

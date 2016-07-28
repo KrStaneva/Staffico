@@ -5,7 +5,7 @@ $(document).ready(function () {
     
     /* start screen */
     $(".image-left").animate({"margin-top": 0 }, 2000);
-    $(".image-right").delay(1000).animate({"margin-right": 0 }, 2000);
+    $(".image-right").delay(1000).animate({"right": 0 }, 2000);
     $(".moto").delay(3000).fadeIn(1000);
     $(".moto p").delay(3000).animate({"margin-left": 0 }, 1000);
     
@@ -24,9 +24,11 @@ $(document).ready(function () {
     /* rownd image effect */
     $(".rownd-img").hover(function () {
         $(".rownd-img div").fadeIn();
+        $(".rownd-img span").fadeIn();
     });
     $(".rownd-img").mouseleave(function () {
         $(".rownd-img div").fadeOut();
+        $(".rownd-img span").fadeOut();
     });
 
     
