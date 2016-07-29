@@ -43,7 +43,7 @@ $(document).ready(function () {
     
     $(".menu-button").click(function () {
         $(".menu").toggle(function() {
-            $(".menu").animate({"left": 0 }, 1000);
+            $(".menu").animate({"top": "70px" }, 1000);
         });
     });    
 });

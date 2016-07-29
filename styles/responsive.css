@@ -96,7 +96,7 @@
     /* top info right part*/
     .top-info .job-positions {
         background-position: -330px;
-        height: 850px;
+        height: 700px !important;
     }
 
         .top-info .job-positions .pos-title {
@@ -204,7 +204,7 @@
     .refer-friend {
         text-align: center; 
         padding: 20px 10px;  
-        height: 950px;
+        height: 950px !important;
     }
         .refer-friend p {
             margin: 20px 0px 20px 0px !important;
@@ -274,7 +274,7 @@
     .blue-part {
         width: 100% !important;
         min-width: 100% !important;
-        height: 1450px !important;
+        height: 1250px !important;
     } 
         .blue-part h3,
         .blue-part p {
@@ -287,4 +287,22 @@
             footer .blue-part .follow ul {
                 margin-left: 50px;
             }    
+}
+
+@media only screen and (max-width: 1030px), only screen and (max-device-width: 1030px) {
+    .top-info .job-positions {
+        height: 850px !important;
+    }
+    .refer-friend {
+        height: 1100px !important;
+    }
+    .refer-friend p {
+        font-size: 17pt !important;
+    }
+    .grey-part {
+        height: 1650px;
+    }
+    .blue-part {
+        height: 1450px !important;
+    }
 }
