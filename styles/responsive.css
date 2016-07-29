@@ -25,6 +25,11 @@
     header .menu-button{
         width: 100vw;
         display: block;
+    }
+    
+    
+    .top-info .job-positions {
+        background-position: center !important;
     }    
 }
     
@@ -80,7 +85,7 @@
             .top-info .info-container .rownd-img {
                 width: 200px;
                 height: 200px;
-                background-position: center -40px;
+                background-position: center -13px;
             }
     
                 .top-info .info-container .rownd-img div {
@@ -98,7 +103,10 @@
         background-position: -330px;
         height: 700px !important;
     }
-
+        .top-info .job-positions .position-desctibtion .open-pos{
+            font-size: 10pt !important;
+            width: 90%;
+        }
         .top-info .job-positions .pos-title {
             font-size: 20pt !important;
             width: 90%;
