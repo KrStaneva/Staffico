@@ -30,44 +30,44 @@ header {
     header .logo .logo-img {
         margin-left: 10vw;
     }
-header .menu {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    list-style: none;
-    color: #ffffff;
-    
-}
-    header .menu li {
-        display: inline-block;
-        margin-right: 20px;
-        cursor: pointer;
-    }
-    header .menu li:last-child{
-        margin-right: 0px;
-    }
-    header .menu li a {
-        text-decoration: none;
-        color: #ffffff;
-        padding: 5px 0px;
-    }
-        header .menu li a:hover{
-            border-bottom: 2px solid #ffffff;    
-        }
-
-    header .menu-button {
-        display: none;
+    header .menu {
         position: absolute;
-        z-index: 10;
-        width: 150%;
-        height: 15px;
-        top: 72px;
-        left: 0px;
-        box-shadow: 0px 0px 2px #000000;
-        background: rgba(99,99,99,0.3) url('../images/arrow-icon.png') no-repeat;
-        background-size: 15px;
-        background-position: center;
+        right: 20px;
+        top: 20px;
+        list-style: none;
+        color: #ffffff;
+
     }
+        header .menu li {
+            display: inline-block;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        header .menu li:last-child{
+            margin-right: 0px;
+        }
+        header .menu li a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 5px 0px;
+        }
+            header .menu li a:hover{
+                border-bottom: 2px solid #ffffff;    
+            }
+
+        header .menu-button {
+            display: none;
+            position: absolute;
+            z-index: 10;
+            width: 150%;
+            height: 15px;
+            top: 72px;
+            left: 0px;
+            box-shadow: 0px 0px 2px #000000;
+            background: rgba(99,99,99,0.3) url('../images/arrow-icon.png') no-repeat;
+            background-size: 15px;
+            background-position: center;
+        }
 
 /* MAIN CONTENT STYLES */
 main {
@@ -89,13 +89,18 @@ main {
             background-color: rgba(1,115,186,0.5);
             text-align: center;
             display: none;
+            color: #ffffff;
         }
             .moto p {
-                color: #ffffff;
                 font-size: 4vw;
                 font-weight: 100px;
                 margin-top: 10vw;
                 margin-left: -3500px;
+            }
+            div.from {
+                margin-top: -3vw;
+                font-size: 1.25vw !important;
+                text-transform: uppercase;
             }
 
         .slider .image-left {
@@ -237,6 +242,7 @@ main {
                     padding-left: 20px;
                     margin: 15px 0px;
                     font-size: 12pt;
+                    line-height: 30px;
                 }
                 .position-desctibtion .pos-title {
                     font-size: 30pt;
@@ -244,23 +250,23 @@ main {
                     margin-bottom: 30px;
                     padding-top: 30px;
                 }
-            .position-desctibtion .pos-button{
-                background-color: #0173ba;
-                margin: 50px;
-                padding: 10px;
-                text-align: center;
-                font-weight: bold;
-                width: 300px;
+            .position-desctibtion .pos-link {
+                text-decoration: none;
+                color: #ffffff;
+                line-height: 30px;
             }
-                .position-desctibtion .pos-button:hover {
-                    background-color: #0163bb;
-                    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+                .position-desctibtion .pos-link .pos-button{
+                    background-color: #0173ba;
+                    margin: 50px;
+                    padding: 10px;
+                    text-align: center;
+                    font-weight: bold;
+                    width: 300px;
                 }
-                .position-desctibtion .pos-button .pos-link {
-                    text-decoration: none;
-                    color: #ffffff;
-                    line-height: 30px;
-                }
+                    .position-desctibtion .pos-link .pos-button:hover {
+                        background-color: #0163bb;
+                        box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+                    }
 
 /* MY INTERVIEW */
 .my-interview {
@@ -288,7 +294,6 @@ main {
             padding: 20px;
             vertical-align: top;
             line-height: 30px;
-            font-weight: bold;
         }
         .full-interview .blue {
             border-left: 2px solid #636363;
@@ -318,20 +323,20 @@ main {
                 position: absolute;
                 bottom: 5px;
             }
-        .my-interview .int-buttons .apply-job {
-            width: 410px;
-            background-color: #0173ba;
-            padding: 20px 30px;
-            margin: 10px auto;
+        .my-interview .int-buttons .apply-link {
+            text-decoration: none;
+            color: #ffffff;
         }
-            .my-interview .int-buttons .apply-job:hover {
-                background-color: #0163bb;
-                box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            .my-interview .int-buttons .apply-link .apply-job {
+                width: 410px;
+                background-color: #0173ba;
+                padding: 20px 30px;
+                margin: 10px auto;
             }
-            .my-interview .int-buttons .apply-job .apply-link {
-                text-decoration: none;
-                color: #ffffff;
-            }
+                .my-interview .int-buttons .apply-link .apply-job:hover {
+                    background-color: #0163bb;
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+                }
 
 /* BULPRS Advantages */
 .bp-advant{

@@ -1,10 +1,12 @@
 @media only screen and (max-width: 1370px), only screen and (max-device-width: 1370px) {
-    header {
-        width: 100%;
-        text-align: left;
+    header,
+    header .logo{
+        width: 100vw;
+        text-align: center;
+        margin-left: 0px;
     }
-    header .logo .logo-img {
-        margin-left: 50px;
+    header .logo .logo-img{
+        margin-left: 0px;
     }
 
     header .menu {
@@ -21,7 +23,7 @@
     }
 
     header .menu-button{
-        width: 100%;
+        width: 100vw;
         display: block;
     }    
 }
@@ -33,7 +35,7 @@
     .top-info,
     .top-info .job-positions,
     .top-info .img-info,
-    .my-interview,
+
     .my-interview p.grey,
     .my-interview p.blue,
     .my-interview .full-interview,
@@ -47,17 +49,14 @@
     footer,
     footer .blue-part .follow{
         width: 100%;
-        min-width: 100%;
+        min-width: 80%;
         max-width: 100%;    
     }
-
-    header {
-        width: 100%;
-        text-align: center;
-    }    
-    header .logo .logo-img {
-        margin-left: 0px;
-    }    
+    
+    .my-interview,
+    .refer-friend{
+        width: calc(100% - 20px) !important;
+    }
 /* TOP INFO*/
     .top-info{
         display: block;
@@ -97,7 +96,7 @@
     /* top info right part*/
     .top-info .job-positions {
         background-position: -330px;
-        height: 1050px;
+        height: 850px;
     }
 
         .top-info .job-positions .pos-title {
@@ -118,7 +117,7 @@
         }
         .position-desctibtion .pos-button {
             margin: 0 auto !important;
-            width: 80%;
+            width: 270px !important;
             font-size: 10pt;
         }
     
@@ -126,7 +125,7 @@
     .my-interview {
         display: inline-block;
         float: left;
-        padding-top: 20px;
+        padding: 30px 10px 0px 10px;
     }
         .my-interview p{
             font-size: 20pt !important;
@@ -150,11 +149,12 @@
         }
             .full-interview td {
                 padding: 10px 10px !important;
-            }   
+            }
+    
     .my-interview .int-buttons .apply-job {
-        width: 90% !important;
+        width: 270px !important;
         margin: 0 auto;
-        padding: 10px 2px;
+        padding: 10px 0px !important;
     }
     
     .my-interview .int-buttons .read-more,
@@ -164,6 +164,16 @@
     
 /* ADVANTAGES */
     .bp-advant {text-align: center; padding-bottom: 40px; display: inline-block;}
+    
+    .bp-advant .title {
+        width: 100% !important;
+        font-size: 12pt;
+        margin-top: 0px;
+    }
+        .bp-advant .title h1 {
+            font-size: 19pt;
+        }
+    
         .bp-advant p {
             margin: 20px 0px 50px 0px !important;
             font-size: 19pt !important;
@@ -193,7 +203,7 @@
 /* REFER A FRIEND */
     .refer-friend {
         text-align: center; 
-        padding: 20px 0px 20px 0px;  
+        padding: 20px 10px;  
         height: 950px;
     }
         .refer-friend p {
