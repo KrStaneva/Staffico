@@ -239,23 +239,25 @@ main {
 
             .top-info .job-positions .position-desctibtion .open-pos{
                 padding-top: 30px;
+                margin-left: -20px;
                 font-size: 16pt;
-                text-align: right;
+                text-align: left;
             }
             .position-desctibtion ul {
                 width: 450px;
                 margin-top: 0px;
+                margin-left: 30px;
             }
                 .position-desctibtion li {
-                    padding-left: 20px;
                     margin: 15px 0px;
                     font-size: 12pt;
                     line-height: 30px;
                 }
                 .position-desctibtion .pos-title {
                     font-size: 30pt;
-                    text-align: right;
+                    text-align: left;
                     margin-bottom: 30px;
+                    margin-left: -20px;
                     padding-top: 20px;
                 }
             .position-desctibtion .pos-link {

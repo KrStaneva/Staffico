@@ -120,7 +120,7 @@
         .top-info .job-positions ul {
             min-width: 90%;
             width: 90%;
-
+            margin-left: 0px !important;
         }
         .top-info .job-positions li {
             width: 90%;
