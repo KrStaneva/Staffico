@@ -142,6 +142,7 @@ main {
             .top-info .img-info .info-container p.grey,
             .top-info .img-info .info-container p.blue {
                 text-align: left;
+                margin-left: 10vw;
                 font-size: 40pt;
             }
             .rownd-img {

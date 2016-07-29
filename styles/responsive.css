@@ -73,16 +73,22 @@
             width: 100% !important;
         }
             .top-info .info-container p {
-                margin: 0px !important;
                 font-size: 20pt !important;
+                margin: 0px !important;
             }
                 .top-info .info-container p.grey {
-                    float: left;
-                    padding-right: 10px;
-                    margin-left: 50px !important;
+                    width: 48% !important;
+                    float: left !important;
+                    text-align: right !important;
+                }
+                .top-info .info-container p.blue {
+                    text-align: left !important;
+                    float: right !important;
+                    width: 50% !important;
                 }
 
             .top-info .info-container .rownd-img {
+                margin-top: 40px !important;
                 width: 200px;
                 height: 200px;
                 background-position: center -13px;
