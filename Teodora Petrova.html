@@ -11,14 +11,29 @@
         <script type="text/javascript" src="js/effects.js"></script>
         <title>
             Teodora Petrova - SharePoint Developer
-        </title>        
+        </title>
+        
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1057145754361444');
+        fbq('track', "PageView");</script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1057145754361444&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->        
     </head>
     
     <body>
         
         <header>
             <div class="logo">
-                <a href="http://careers.bulpros.com">
+                <a href="http://careers.bulpros.com" onclick="trackOutboundLink('http://careers.bulpros.com'); return false;">
                     <img class="logo-img" src="images/logo-white.png"> 
                 </a>
             </div>
@@ -90,7 +105,7 @@
                             <li>ОПИТ С MVC</li>
                             <li>МНОГО ДОБРО ВЛАДЕЕНЕ НА АНГЛИЙСКИ ЕЗИК</li>
                         </ul>
-                        <a class="pos-link" href="https://portal.staffico.com/bulpros/JobPosts/Std_SP_dev_Sf">
+                        <a class="pos-link" href="https://portal.staffico.com/bulpros/JobPosts/Std_SP_dev_Sf" onclick="trackOutboundLink('https://portal.staffico.com/bulpros/JobPosts/Std_SP_dev_Sf'); return false;">
                             <div class="pos-button">
                                 ВИЖТЕ ПЪЛНОТО ОПИСАНИЕ, ЗАПАЗЕТЕ СИ СРЕЩА С РЕКРУТЪР и ЗАПОЧНЕТЕ ДА СЪЗДАВАТЕ
                             </div>
@@ -151,7 +166,7 @@
                 </table>
                 <div class="int-buttons">
                     <div class="read-more">ПРОЧЕТИ ЦЯЛОТО ИНТЕРВЮ <i class="material-icons">expand_more</i></div>
-                    <a class="apply-link" href="https://portal.staffico.com/bulpros/JobPosts/Std_SP_dev_Sf">
+                    <a class="apply-link" href="https://portal.staffico.com/bulpros/JobPosts/Std_SP_dev_Sf" onclick="trackOutboundLink('https://portal.staffico.com/bulpros/JobPosts/Std_SP_dev_Sf'); return false;">
                         <div class="apply-job">
                             СТАНИ ЧАСТ ОТ ЕКИПА НА BULPROS И СЪЗДАВАЙ
                         </div>
@@ -288,7 +303,7 @@
                             <li><div class="ui-ux"></div>UI/UX</li>
                         </ul>
                     </div>
-                    <div class="grey-button"><a href="http://bulpros.com/careers/job-search">ВСИЧКИ ОТВОРЕНИ ПОЗИЦИИ</a></div>
+                    <div class="grey-button"><a href="http://bulpros.com/careers/job-search" onclick="trackOutboundLink('http://bulpros.com/careers/job-search'); return false;">ВСИЧКИ ОТВОРЕНИ ПОЗИЦИИ</a></div>
                 </div>
             </div>
             <div class="blue-part" id="bpContacts">
@@ -316,13 +331,63 @@
                 <div class="follow">
                     <h3>FOLLOW US ON:</h3>
                     <ul>
-                        <li><a href="https://www.facebook.com/BulPros/?fref=ts"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/bulpros_com"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/bulpros"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://plus.google.com/+Bulpros/videos"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://www.facebook.com/BulPros/?fref=ts" onclick="trackOutboundLink('https://www.facebook.com/BulPros/?fref=ts'); return false;"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/bulpros_com" onclick="trackOutboundLink('https://twitter.com/bulpros_com'); return false;"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/bulpros" onclick="trackOutboundLink('https://www.linkedin.com/company/bulpros'); return false;"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://plus.google.com/+Bulpros/videos" onclick="trackOutboundLink('https://plus.google.com/+Bulpros/videos'); return false;"><i class="fa fa-google-plus"></i></a></li>
                     </ul>
                 </div>
             </div>
         </footer>
+
+        <!-- AdWords Remarketing tag -->
+    
+        <!-- Google Code for Remarketing Tag -->
+        <!--------------------------------------------------
+        Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+        --------------------------------------------------->
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var google_conversion_id = 947944170;
+            var google_custom_params = window.google_tag_params;
+            var google_remarketing_only = true;
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+            <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/947944170/?value=0&amp;guid=ON&amp;script=0"/>
+            </div>
+        </noscript>
+    
+        <!-- GA code SharePoint -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-23302287-10', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    
+        <!-- GA outbound links -->
+        <script>
+            /**
+            * Function that tracks a click on an outbound link in Analytics.
+            * This function takes a valid URL string as an argument, and uses that URL string
+            * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+            * using 'navigator.sendBeacon' in browser that support it.
+            */
+            var trackOutboundLink = function(url) {
+               ga('send', 'event', 'outbound', 'click', url, {
+                 'transport': 'beacon',
+                 'hitCallback': function(){document.location = url;}
+               });
+            }
+        </script>
+    
     </body>
 </html>
