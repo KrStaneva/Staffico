@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    
-    $("header .logo").width(screen.width);
-    $("header .menu-button").width(screen.width+10);
+    var navMenu = 0;
+    //$("header .logo").width(screen.width);
+    //$("header .menu-button").width(screen.width+10);
     
     /* start screen */
-    $(".image-left").animate({"margin-top": 0 }, 2000);
-    $(".image-right").delay(1000).animate({"right": 0 }, 2000);
+    $(".image-left").delay(1000).animate({"margin-top": 0 }, 2000);
+    $(".image-right").animate({"right": 0 }, 2000);
     $(".moto").delay(3000).fadeIn(1000);
     $(".moto p").delay(3000).animate({"margin-left": 0 }, 1000);
     
@@ -40,10 +40,15 @@ $(document).ready(function () {
             window.location.hash = hash;
         });
     });
-    
-    $(".menu-button").click(function () {
-        $(".menu").toggle(function() {
-            $(".menu").animate({"top": "70px" }, 1000);
-        });
-    });    
+
+    $(".mobile-navigation").click(function () {
+        if(navMenu === 0) {
+            $(".menu").animate({"left": "0px" }, 1000);
+            navMenu = 1;
+        }
+        else {
+            $(".menu").animate({"left": "-350px" }, 1000);
+            navMenu = 0;
+        }
+    });  
 });

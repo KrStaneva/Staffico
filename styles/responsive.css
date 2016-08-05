@@ -1,20 +1,21 @@
 @media only screen and (max-width: 1370px), only screen and (max-device-width: 1370px) {
-    header,
-    header .logo{
-        width: 100vw;
-        text-align: center;
-        margin-left: 0px;
+
+    header {
+        padding: 20px 0px;
     }
     header .logo .logo-img{
-        margin-left: 0px;
+        margin-left: 20px;
+        width: 250px;
+        height: auto;
     }
 
     header .menu {
         right: auto;
-        left: -1000px;
-        top: 70px;
+        left: -350px;
+        top: 50px;
         background-color: rgba(1,115,186,0.7);
         padding: 10px;
+        box-shadow: 2px 2px 10px rgba(99,99,99,0.5);
     }    
     header .menu li {
         margin: 0px;
@@ -22,14 +23,69 @@
         display: inherit;
     }
 
+    /*
     header .menu-button{
         width: 100vw;
         display: block;
     }
+    */
     
     
     .top-info .job-positions {
         background-position: center !important;
+    }
+    
+    /* mobile navigation button */
+    
+    .mobile-navigation {
+        width: 22px;
+        height: 22px;
+        margin-right: 0;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+
+    }
+        .mobile-navigation span:after, 
+        .mobile-navigation span:before, 
+        .mobile-navigation .lines:after, 
+        .mobile-navigation .lines:before {
+            display: inline-block;
+            width: 22px;
+            height: 2px;
+            background: #ecf0f1;
+            position: absolute;
+            left: 0;
+            content: '';
+            -webkit-transform-origin: 1.5px center;
+            transform-origin: 1.5px center;
+            -webkit-transition: top .3s;
+            transition: top .3s;
+        }
+        .mobile-navigation .lines {
+            display: inline-block;
+            width: 22px;
+            height: 2px;
+            background: #ecf0f1;
+            position: relative;
+        }
+            .mobile-navigation .lines:before {
+                top: 7px;
+            }
+            .mobile-navigation .lines:after {
+                top: -7px;
+            }
+    
+                .mobile-navigation .lines:hover::before{
+                    top: 5px;
+                }
+                .mobile-navigation .lines:hover::after{
+                    top: -5px;
+                }
+    
+    main {
+        margin-top: 65px;
     }    
 }
     
